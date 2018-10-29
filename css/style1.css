@@ -360,6 +360,32 @@ font-weight: normal;
 }
 
 
+
+table.wikitable, table.prettytable {
+    margin: 1em 1em 1em 0;
+    background: #f9f9f9;
+    border: 1px #aaaaaa solid;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table, td, th {
+    border: 1px solid gray;
+}
+
+
+
 /*Contact*/
 
 
